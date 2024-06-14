@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Resume</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        padding: 20px;
+    }
+    .sidebar {
+        background-color: #003366;
+        color: #fff;
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 135px;
+        margin-top: 15px;
+        border: 3px solid #fff;
+    }
+    .sidebar h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .sidebar p, .sidebar a {
+        font-size: 14px;
+        color: #ecf0f1;
+        /* margin: 7px 0; */
+        text-align: center;
+    }
+    .sidebar a {
+        text-decoration: none;
+        color: #ecf0f1;
+        margin: 4px 0;
+
+    }
+    .sidebar a:hover {
+        text-decoration: underline;
+    }
+    .main-content {
+        width: 70%;
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 0 10px 10px 0;
+    }
+    .main-content h1 {
+        font-size: 40px;
+        color: #003366;
+        margin-bottom: 40px;
+    }
+    .main-content h2 {
+        font-size: 18px;
+        color: #003366;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #003366;
+        padding-bottom: 5px;
+    }
+    .main-content .section {
+        margin-bottom: 30px;
+    }
+    .main-content p {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.6;
+    }
+    .main-content p strong {
+        color: #333;
+    }
+    .contact-info, .skills, .languages {
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .contact-info p, .skills p, .languages p {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 5px 0;
+    }
+    .contact-info p i, .skills p i, .languages p i {
+        margin-right: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img class="profile-img" src="./Picture1.png" alt="Said Alali">
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Brih, Al Shouf, Lebanon</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:saidalali3@gmail.com">saidalali3@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+96171280989">+961 71 280 989</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="your_linkedin_profile">LinkedIn Profile</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/dadogit-uni">GitHub Profile</a></p>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <p><i class="fas fa-code"></i> Java, JavaScript</p>
+                <p><i class="fas fa-code"></i> React, Node.js</p>
+                <p><i class="fas fa-code"></i> HTML, CSS</p>
+                <p><i class="fas fa-code"></i> React.js, Express.js</p>
+            </div>
+            <div class="languages">
+                <h2>Languages</h2>
+                <p><i class="fas fa-language"></i> Native Arabic</p>
+                <p><i class="fas fa-language"></i> English (Excellent reading and writing skills)</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <h1>Said Alali</h1>
+            <div class="section">
+                <h2>Objective</h2>
+                <p>Highly motivated Computer Science graduate with expertise in React, Node.js, HTML, CSS, JavaScript, and Java. A fast learner and hard worker with a creative and critical thinking approach to problem-solving. Seeking a challenging programming position to leverage my technical skills and contribute to innovative projects.</p>
+            </div>
+            <div class="section">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Science in Computer Science</strong><br>Lebanese International University, Beirut, Lebanon<br>2018 - 2024</p>
+            </div>
+            <div class="section">
+                <h2>Experience</h2>
+                <p><strong>Indoor Sales and Customer Service</strong><br>
+                Maliks Bookshop, Beirut, Lebanon<br>
+                January 2023 - July 2023<br>
+                - Assisted customers with inquiries and purchases, ensuring a high level of customer satisfaction.<br>
+                - Managed sales transactions and inventory updates.<br>
+                - Provided technical support and recommendations for book selections.</p>
+                <p><strong>Volunteer</strong><br>Red Cross, Chouf, Lebanon<br>June 2017 - June 2018<br>
+                - Participated in community outreach and emergency response activities.<br>
+                - Assisted in organizing events and providing first aid support.</p>
+                <p><strong>Waiter</strong><br>Various Locations, Mainly Mir Amin Palace, Beit Al Dine, Lebanon<br>
+                January 2014 - January 2020<br>
+                - Provided exceptional customer service in a fast-paced environment.<br>
+                - Managed orders and ensured timely service delivery.<br>
+                - Maintained a clean and welcoming atmosphere for guests.</p>
+            </div>
+            <div class="section">
+                <h2>Projects</h2>
+                <p><b><u>Mushroom website (Almost Done)</u></b><br>
+                - Description: Worked as a full stack developer on the mushroom farm website that sells online products, and offers a VIP community for starters to learn.<br>
+                - Technologies: React, Node.js, JavaScript, HTML, CSS</p>
+                <p><a href="https://dadogit-uni.github.io/Live-Web-projects/">press here for more projects..</a></p>
+            </div>
+            <div class="section">
+                <h2>Strengths</h2>
+                <p>- Fast learner with the ability to quickly adapt to new technologies.<br>
+                - Strong critical thinking and problem-solving skills.<br>
+                - Excellent communication skills in both Arabic and English.<br>
+                - Highly creative with a keen eye for detail.</p>
+            </div>
+            <div class="section">
+                <h2>Additional Information</h2>
+                <p>- Location: Flexible for relocation within Lebanon.<br>
+                - Availability: Open to full-time or part-time opportunities.</p>
+            </div>
+            <div class="section">
+                <h2>References</h2>
+                <p>Available upon request.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
